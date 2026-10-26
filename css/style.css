@@ -1,0 +1,110 @@
+/* Reset margin dan padding dasar */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FBF4EA; /* Krem Hangat */
+    color: #3B2A20; /* Cokelat Espresso */
+}
+
+header {
+    background-color: #A61E22; /* Merah Bata */
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #D9A441; /* Emas Karamel */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+main {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    max-width: 800px;
+    border-radius: 8px;
+    border: 1px solid #EDE3D6; /* Pasir */
+    min-height: 400px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #7A1217; /* Merah Marun */
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.welcome-box {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, 
+.form-group textarea, 
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #A61E22;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #7A1217;
+}
+
+#hasil-simulasi {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #FBF4EA;
+    border-left: 5px solid #D9A441;
+}
+
+#error-msg {
+    color: #A61E22;
+    font-weight: bold;
+    margin-top: 15px;
+}

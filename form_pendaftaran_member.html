@@ -1,0 +1,35 @@
+<h2>Pendaftaran Akun & Ulasan Toko</h2>
+<p>Daftarkan diri Anda sebagai member Kopi Senja dan berikan ulasan mengenai layanan kami.</p>
+
+<form id="formMember" onsubmit="return validasiForm(event)">
+    <div class="form-group">
+        <label>Alamat Email:</label>
+        <input type="text" id="email" placeholder="contoh@email.com">
+    </div>
+    
+    <div class="form-group">
+        <label>Password:</label>
+        <input type="password" id="password" placeholder="Minimal 6 karakter">
+    </div>
+    
+    <div class="form-group">
+        <label>Rating Bintang Toko:</label>
+        <select id="rating">
+            <option value="">-- Pilih Rating --</option>
+            <option value="5">5 - Sangat Memuaskan</option>
+            <option value="4">4 - Memuaskan</option>
+            <option value="3">3 - Biasa Saja</option>
+            <option value="2">2 - Mengecewakan</option>
+            <option value="1">1 - Sangat Buruk</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label>Feedback / Ulasan Anda:</label>
+        <textarea id="feedback" rows="4" placeholder="Ceritakan pengalaman Anda ngopi di Kopi Senja..."></textarea>
+    </div>
+    
+    <button type="submit" class="btn">Daftar & Kirim Ulasan</button>
+    
+    <div id="error-msg"></div>
+</form>
